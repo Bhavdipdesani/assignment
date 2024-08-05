@@ -2715,7 +2715,7 @@ export default function SimpleLineChart() {
     return (
         <LineChart
             width={300}
-            height={300}
+            height={250}
             series={[
                 { data: uData, label: 'Offeline Saling' },
                 { data: pData, label: 'Web Seles' },
